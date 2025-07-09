@@ -62,7 +62,7 @@ namespace CookingPrototype.Controllers {
 
             _timer += Time.deltaTime;
 
-            if ((TotalCustomersGenerated >= CustomersTargetNumber) || !(_timer > CustomerSpawnTime)) {
+            if (TotalCustomersGenerated >= CustomersTargetNumber || !(_timer > CustomerSpawnTime)) {
                 return;
             }
 
