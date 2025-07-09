@@ -12,7 +12,7 @@ namespace CookingPrototype.UI {
 		public TMP_Text CustomersCountText = null;
 
 		void Start() {
-			GameplayController .Instance.TotalOrdersServedChanged       += OnOrdersChanged;
+			GameplayController.Instance.TotalOrdersServedChanged += OnOrdersChanged;
 			CustomersController.Instance.TotalCustomersGeneratedChanged += OnCustomersChanged;
 			OnOrdersChanged();
 			OnCustomersChanged();
@@ -36,7 +36,7 @@ namespace CookingPrototype.UI {
 		void OnOrdersChanged() {
 			var gc = GameplayController.Instance;
 			OrdersCountText.text = $"{gc.TotalOrdersServed}/{gc.OrdersTarget}";
-			OrdersBar.fillAmount = (float) gc.TotalOrdersServed / gc.OrdersTarget;
+			OrdersBar.fillAmount = gc.OrdersTarget > 0 ? (float)gc.TotalOrdersServed / gc.OrdersTarget : 0f;
 		}
 	}
 }
