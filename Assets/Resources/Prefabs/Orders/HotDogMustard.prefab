@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 222730620523764470}
   - component: {fileID: 114421816482816466}
   m_Layer: 0
-  m_Name: BurgerCheese
+  m_Name: HotDogMustard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2a490406cee2fb04198921e1c17d70ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68f6f31b774ffd0458ebdc9310c2aac5, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 222607313332470358}
   - component: {fileID: 114124878203631280}
   m_Layer: 0
-  m_Name: BurgerBunTop
+  m_Name: HotDogBunTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f660fef4a61f32d4fbe95528fff2ae10, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83b978faa0f9b974a8471e01023f1ee0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 222774485087410966}
   - component: {fileID: 114906351563111204}
   m_Layer: 0
-  m_Name: BurgerBun
+  m_Name: HotDogBun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fd6f1c64734f33b45a664a987bcf5314, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27572524a601b384e9fffaee095d0f20, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 222449877601445266}
   - component: {fileID: 114663846342660208}
   m_Layer: 0
-  m_Name: BurgerCutlet
+  m_Name: HotDogSausage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 11bbb6044fc0bbb459721925f908833f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd68e4b6cc3a28d428b6d2913e1255cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -310,7 +310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 224005488811323622}
   m_Layer: 0
-  m_Name: BurgerCheese
+  m_Name: HotDogMustard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
